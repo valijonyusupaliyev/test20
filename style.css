@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    padding: 0 131px;
+    padding-top: 46px;
+}
+
+.menu_list {
+    display: flex;
+    gap: 40px;
+}
+
+.list_item>a {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    color: #45424c;
+}
+
+.list_item>a:hover {
+    color: #1F1534;
+    font-weight: 600;
+}
+
+.showcase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 91px;
+}
+
+.showcase_title {
+    font-family: Mulish;
+    font-size: 45px;
+    font-weight: 700;
+    width: 421.21px;
+}
+
+.showcase_description {
+    font-family: Mulish;
+    font-size: 19px;
+    font-weight: 300;
+    color: #7D7987;
+    width: 440px;
+    margin: 26px 0 35px 0;
+    letter-spacing: 0.3px;
+    line-height: 32px;
+}
+
+.showcase_button {
+    width: 197.75px;
+    height: 49.12px;
+    border-radius: 55px;
+    background-color: transparent;
+    border: 3px solid #458FF6;
+    color: #458FF6;
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21.24px;
+    transition: all 0.3;
+}
+
+.showcase_button:hover {
+    background-color: #458FF6;
+    color: white;
+    transition: all 0.3;
+    cursor: pointer;
+}
+
+.h2 {
+    font-family: Mulish;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 91.32px 483px 61.81px 485px;
+
+}
+
+main {
+    padding: 91px 143px 0 143px;
+}
+
+.first_section {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first_section-title {
+    font-family: Mulish;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 56px;
+
+
+}
+
+.first_section-description {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    color: #7D7987;
+    width: 952px;
+    margin-top: 41px;
+}
+
+.card {
+    width: 380px;
+    height: 380px;
+    background-color: #E7E7E7;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 38px;
+    transition: all 0.5s;
+}
+
+.card_img {
+    width: 96px;
+    height: 93px;
+    margin-top: 10px;
+}
+
+.card_title {
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    margin: 40px 0 10px 0;
+    transition: all 0.5s;
+
+}
+
+.card_description {
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 280px;
+    transition: all 0.5s;
+}
+.Wrapper_card{
+    margin-top: 36px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px 20px;
+}
+.card:hover{
+    background-color: #5a98f2;
+    transition: all 0.5s;
+}
+.card:hover>.title{
+    color: white;
+    transition: 0.5s;
+}
+.card:hover>.card_description{
+    color: white;
+    transition: 0.5s;
+}
